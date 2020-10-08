@@ -24,6 +24,7 @@ import (
 	_ "github.com/grafana/grafana/pkg/tsdb/azuremonitor"
 	_ "github.com/grafana/grafana/pkg/tsdb/cloudmonitoring"
 	_ "github.com/grafana/grafana/pkg/tsdb/cloudwatch"
+	_ "github.com/grafana/grafana/pkg/tsdb/druid"
 	_ "github.com/grafana/grafana/pkg/tsdb/elasticsearch"
 	_ "github.com/grafana/grafana/pkg/tsdb/graphite"
 	_ "github.com/grafana/grafana/pkg/tsdb/influxdb"
